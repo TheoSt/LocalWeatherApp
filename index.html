@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Local Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="test">Local Weather</h1>
+    <div class="container">
+      <div class="mainBody">
+        <div class="left">
+          <h2>Athens, Greece</h2>
+          <p id="date"></p>
+          <p id="weather"></p>
+          <div id="tempDiv">
+            <p>Temperature:
+              <span id="temp"></span>
+              <span id="tempSymbol"></span>
+              <span class="spanButtons" id="celsius">C</span>
+              <span class="spanButtons" id="fahr">F</span>
+            </p>
+          </div>
+          <div class="right">
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind: <spam id="wind"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p>Made by<a href="#" target="_blank"> Theodore Stamatiadis</p>
+      <p><a href="https://openweathermap.org/api" target="_blank">Open Weather Map API</a></p>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
