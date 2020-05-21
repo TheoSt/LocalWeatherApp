@@ -103,7 +103,6 @@ function chooseBackgroundImage(data_id) {
   else {
     document.body.style.background = "#3c403e";
   }
-  document.body.style.backgroundImage = "url("+imgs.clouds+")";
 }
 
 function setData(data) {
